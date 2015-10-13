@@ -1,0 +1,16 @@
+  --set nocount on
+  --set quoted_identifier, ansi_nulls, ansi_warnings, arithabort,
+  --    concat_null_yields_null, ansi_padding on
+  --set numeric_roundabort off
+  set transaction isolation level read uncommitted
+  --set xact_abort on
+  --set no_browsetable off
+
+declare
+   @cnt  int           = 0
+
+while @cnt < 1
+begin
+  exec dbo.[HREmployee.ReadSalesManagerPlan] '1459,276,242,1561,275,148,220,219,90,1364,1337,1617,1460,453,461,209,309,208,306,531,76,942,1043,940,1168,1663,2085,1822,1665,1660,1825,1659,1657,1661,1658,1664,1695,1746,2081,1904,1905,1986,1654,1735,878,1499,879,1442,1421,1940,1427,894,893,868,877,869,1483,1734,1422,1730,866,892,1733,1732,867,834,169,1201,1872,170,168,1985,171,1933,37,2112,2108,2107,2073,2087,2088,2023,255,296,256,254,257,134,1605,1997,1604,1592,1284,241,120,1171,1206,1209,1990,1158,230,229,105,1324,1223,1332,198,197,61,633,632,742,595,596,593,659,687,660,743,291,2048,1637,457,1463,1227,1568,1235,',NULL,NULL,NULL
+  set @cnt = @cnt + 1
+end
