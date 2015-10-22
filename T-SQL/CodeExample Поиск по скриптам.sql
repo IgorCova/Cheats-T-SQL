@@ -3,8 +3,7 @@ select distinct
     ,so.name
   from syscomments sc
   join sysobjects so on sc.id = so.id
-  where sc.text like '%primary key nonclustered%'       
+  where sc.text like '%Payment.Pay%'       
   order by
      so.xtype
     ,so.name    
-    'CHService.CalcTime'

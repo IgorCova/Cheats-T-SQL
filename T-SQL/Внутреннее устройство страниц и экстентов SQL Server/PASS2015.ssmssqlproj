@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="PASS2015">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="(local)\sql2008:AlohaPC\Aloha">
+          <Created>2015-03-16T14:28:32.0018946+05:00</Created>
+          <Type>SQL</Type>
+          <Server>(local)\sql2008</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="(local)\sql2008R2:AlohaPC\Aloha">
+          <Created>2015-03-12T21:30:36.8622242+05:00</Created>
+          <Type>SQL</Type>
+          <Server>(local)\sql2008R2</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName />
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="DB.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local)\sql2008R2:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)\sql2008R2</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>DB.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Demo.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local)\sql2008R2:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)\sql2008R2</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Demo.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Pages.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local)\sql2008R2:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)\sql2008R2</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Pages.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Extents.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local)\sql2008R2:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)\sql2008R2</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Extents.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Page_Types.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local)\sql2008R2:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)\sql2008R2</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Page_Types.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Internals_Viewer.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local)\sql2008:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)\sql2008</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Internals_Viewer.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>
