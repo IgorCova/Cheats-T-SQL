@@ -34,7 +34,7 @@ select
         > 1000
     and object_name(mid.object_id) is not null
     and db_name(mid.database_id) = 'AutoSales'
-        --and migs.avg_user_impact > 70.0       
+    and migs.avg_user_impact > 70.0       
   order by
      migs.avg_total_user_cost * migs.avg_user_impact * (migs.user_seeks + migs.user_scans) 
      desc
